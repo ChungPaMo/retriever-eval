@@ -1,0 +1,641 @@
+﻿qid,entity,header,gold,category,rule_pred,split
+A0001,monthly_demand,product_id,product_id,alias_exact,product_id,dev
+A0002,monthly_demand,productid,product_id,alias_exact,product_id,test
+A0003,monthly_demand,product_code,product_id,alias_exact,product_id,test
+A0004,monthly_demand,productcode,product_id,alias_exact,product_id,dev
+A0005,monthly_demand,제품코드,product_id,alias_exact,product_id,dev
+A0006,monthly_demand,품목코드,product_id,alias_exact,product_id,test
+A0007,monthly_demand,제품id,product_id,alias_exact,product_id,dev
+A0008,monthly_demand,품번,product_id,alias_exact,product_id,dev
+A0009,monthly_demand,itemcode,product_id,alias_exact,product_id,dev
+A0010,monthly_demand,item_code,product_id,alias_exact,product_id,test
+A0011,monthly_demand,sku,product_id,alias_exact,product_id,test
+A0012,monthly_demand,code,product_id,alias_exact,product_id,test
+A0013,monthly_demand,코드,product_id,alias_exact,product_id,dev
+A0014,monthly_demand,id,product_id,alias_exact,product_id,test
+A0015,monthly_demand,제품,product_id,alias_exact,product_id,dev
+A0016,monthly_demand,품목,product_id,alias_exact,product_id,test
+A0017,monthly_demand,product_name,product_name,alias_exact,product_name,dev
+A0018,monthly_demand,productname,product_name,alias_exact,product_name,dev
+A0019,monthly_demand,제품명,product_name,alias_exact,product_name,test
+A0020,monthly_demand,품목명,product_name,alias_exact,product_name,dev
+A0021,monthly_demand,품명,product_name,alias_exact,product_name,dev
+A0022,monthly_demand,itemname,product_name,alias_exact,product_name,test
+A0023,monthly_demand,name,product_name,alias_exact,product_name,dev
+A0024,monthly_demand,이름,product_name,alias_exact,product_name,test
+A0025,monthly_demand,명칭,product_name,alias_exact,product_name,dev
+A0026,monthly_demand,period,period,alias_exact,period,dev
+A0027,monthly_demand,yyyymm,period,alias_exact,period,test
+A0028,monthly_demand,년월,period,alias_exact,period,test
+A0029,monthly_demand,수요월,period,alias_exact,period,test
+A0030,monthly_demand,기준월,period,alias_exact,period,test
+A0031,monthly_demand,주문월,period,alias_exact,period,dev
+A0032,monthly_demand,target_month,period,alias_exact,period,dev
+A0033,monthly_demand,기간,period,alias_exact,period,dev
+A0034,monthly_demand,month,period,alias_exact,period,test
+A0035,monthly_demand,월,period,alias_exact,period,dev
+A0036,monthly_demand,date,period,alias_exact,period,test
+A0037,monthly_demand,날짜,period,alias_exact,period,dev
+A0038,monthly_demand,일자,period,alias_exact,period,dev
+A0039,monthly_demand,demand_qty,demand_qty,alias_exact,demand_qty,test
+A0040,monthly_demand,demandqty,demand_qty,alias_exact,demand_qty,dev
+A0041,monthly_demand,수요량,demand_qty,alias_exact,demand_qty,test
+A0042,monthly_demand,월수요량,demand_qty,alias_exact,demand_qty,test
+A0043,monthly_demand,월별수요량,demand_qty,alias_exact,demand_qty,test
+A0044,monthly_demand,monthly_demand,demand_qty,alias_exact,demand_qty,test
+A0045,monthly_demand,demand,demand_qty,alias_exact,demand_qty,test
+A0046,monthly_demand,수요,demand_qty,alias_exact,demand_qty,test
+A0047,monthly_demand,qty,demand_qty,alias_exact,demand_qty,test
+A0048,monthly_demand,quantity,demand_qty,alias_exact,demand_qty,test
+A0049,monthly_demand,수량,demand_qty,alias_exact,demand_qty,dev
+A0050,monthly_demand,주문수량,demand_qty,alias_exact,demand_qty,test
+A0051,monthly_demand,판매량,demand_qty,alias_exact,demand_qty,dev
+A0052,monthly_demand,출고량,demand_qty,alias_exact,demand_qty,test
+A0053,monthly_demand,unit,unit,alias_exact,unit,dev
+A0054,monthly_demand,uom,unit,alias_exact,unit,dev
+A0055,monthly_demand,단위,unit,alias_exact,unit,test
+A0056,monthly_demand,수량단위,unit,alias_exact,unit,test
+A0057,monthly_demand,단위명,unit,alias_exact,unit,test
+A0058,monthly_demand,PRODUCT ID,product_id,alias_format,product_id,dev
+A0059,monthly_demand,PRODUCTID,product_id,alias_format,product_id,test
+A0060,monthly_demand,PRODUCT NAME,product_name,alias_format,product_name,test
+A0061,monthly_demand,PRODUCTNAME,product_name,alias_format,product_name,test
+A0062,monthly_demand,PERIOD,period,alias_format,period,dev
+A0063,monthly_demand,YYYYMM,period,alias_format,period,dev
+A0064,monthly_demand,DEMAND QTY,demand_qty,alias_format,demand_qty,test
+A0065,monthly_demand,DEMANDQTY,demand_qty,alias_format,demand_qty,test
+A0066,monthly_demand,UNIT,unit,alias_format,unit,dev
+A0067,monthly_demand,UOM,unit,alias_format,unit,test
+A0068,monthly_demand,품목번호,product_id,synonym,,dev
+A0069,monthly_demand,상품코드,product_id,synonym,,test
+A0070,monthly_demand,Item No.,product_id,synonym,,test
+A0071,monthly_demand,Part No,product_id,synonym,,test
+A0072,monthly_demand,품목명칭,product_name,synonym,,test
+A0073,monthly_demand,상품명,product_name,synonym,,dev
+A0074,monthly_demand,제품 이름,product_name,synonym,,test
+A0075,monthly_demand,Description,product_name,synonym,,test
+A0076,monthly_demand,납기년월,period,synonym,,dev
+A0077,monthly_demand,판매월,period,synonym,,dev
+A0078,monthly_demand,대상월,period,synonym,,dev
+A0079,monthly_demand,연월,period,synonym,,dev
+A0080,monthly_demand,출고월,period,synonym,,dev
+A0081,monthly_demand,판매수량,demand_qty,synonym,,test
+A0082,monthly_demand,출고수량,demand_qty,synonym,,test
+A0083,monthly_demand,오더수량,demand_qty,synonym,,test
+A0084,monthly_demand,수주량,demand_qty,synonym,,test
+A0085,monthly_demand,수주수량,demand_qty,synonym,,test
+A0086,monthly_demand,Sales Qty,demand_qty,synonym,,test
+A0087,monthly_demand,월 판매 실적,demand_qty,synonym,,test
+A0088,monthly_demand,계량단위,unit,synonym,,test
+A0089,monthly_demand,Unit of Measure,unit,synonym,,test
+A0090,monthly_demand,PROD_CD,product_id,typo,,test
+A0091,monthly_demand,품목 CD,product_id,typo,,dev
+A0092,monthly_demand,제폼코드,product_id,typo,,dev
+A0093,monthly_demand,PRD_NM,product_name,typo,,dev
+A0094,monthly_demand,제품몀,product_name,typo,,test
+A0095,monthly_demand,기준년월,period,typo,,test
+A0096,monthly_demand,YM,period,typo,,test
+A0097,monthly_demand,수요랑,demand_qty,typo,,dev
+A0098,monthly_demand,DMD_QTY,demand_qty,typo,,dev
+A0099,monthly_demand,판매 수랑,demand_qty,typo,,dev
+A0100,monthly_demand,단 위,unit,alias_format,unit,test
+A0101,monthly_demand,2026년 월별 수요량,demand_qty,compound,,dev
+A0102,monthly_demand,당월 수요,demand_qty,compound,,dev
+A0103,monthly_demand,월별 판매수량 합계,demand_qty,compound,,test
+A0104,monthly_demand,고객 주문수량,demand_qty,compound,,test
+A0105,monthly_demand,수요 예측 대상 월,period,compound,,dev
+A0106,monthly_demand,판매 기준월,period,compound,,dev
+A0107,monthly_demand,ERP 품번,product_id,compound,,dev
+A0108,monthly_demand,사내 제품코드,product_id,compound,,dev
+A0109,monthly_demand,완제품 코드,product_id,compound,,dev
+A0110,monthly_demand,제품 한글명,product_name,compound,,test
+A0111,monthly_demand,수량 단위 표기,unit,compound,,test
+A0112,monthly_demand,비고,NONE,none,,test
+A0113,monthly_demand,담당자,NONE,none,,test
+A0114,monthly_demand,거래처명,NONE,none,,dev
+A0115,monthly_demand,단가,NONE,none,,test
+A0116,monthly_demand,금액,NONE,none,,test
+A0117,monthly_demand,영업소,NONE,none,,test
+A0118,monthly_demand,작성일,NONE,none,,dev
+A0119,monthly_demand,순번,NONE,none,,test
+A0120,monthly_demand,납품처,NONE,none,,dev
+A0121,monthly_demand,통화,NONE,none,,dev
+A0122,monthly_demand,생산량,NONE,trap,,test
+A0123,monthly_demand,재고량,NONE,trap,,dev
+A0124,monthly_demand,자재코드,NONE,trap,,test
+A0125,monthly_demand,거래처코드,NONE,trap,,test
+A0126,monthly_demand,고객코드,NONE,trap,,dev
+A0127,monthly_demand,반품수량,NONE,trap,,test
+A0128,monthly_demand,예측수량,NONE,trap,,test
+A0129,monthly_demand,전년동월 수요,NONE,trap,,test
+A0130,monthly_demand,주문번호,NONE,trap,,dev
+A0131,monthly_demand,창고코드,NONE,trap,,test
+A0132,monthly_demand,제품군,NONE,trap,,test
+A0133,monthly_demand,규격,NONE,trap,,dev
+A0134,monthly_demand,목표수량,NONE,trap,,test
+A0135,product,product_id,product_id,alias_exact,product_id,dev
+A0136,product,productid,product_id,alias_exact,product_id,test
+A0137,product,product_code,product_id,alias_exact,product_id,dev
+A0138,product,productcode,product_id,alias_exact,product_id,test
+A0139,product,제품코드,product_id,alias_exact,product_id,test
+A0140,product,품목코드,product_id,alias_exact,product_id,test
+A0141,product,제품id,product_id,alias_exact,product_id,test
+A0142,product,품번,product_id,alias_exact,product_id,test
+A0143,product,itemcode,product_id,alias_exact,product_id,test
+A0144,product,item_code,product_id,alias_exact,product_id,test
+A0145,product,sku,product_id,alias_exact,product_id,test
+A0146,product,code,product_id,alias_exact,product_id,dev
+A0147,product,코드,product_id,alias_exact,product_id,dev
+A0148,product,id,product_id,alias_exact,product_id,test
+A0149,product,제품,product_id,alias_exact,product_id,dev
+A0150,product,품목,product_id,alias_exact,product_id,test
+A0151,product,product_name,product_name,alias_exact,product_name,test
+A0152,product,productname,product_name,alias_exact,product_name,test
+A0153,product,제품명,product_name,alias_exact,product_name,dev
+A0154,product,품목명,product_name,alias_exact,product_name,test
+A0155,product,품명,product_name,alias_exact,product_name,test
+A0156,product,itemname,product_name,alias_exact,product_name,test
+A0157,product,name,product_name,alias_exact,product_name,test
+A0158,product,이름,product_name,alias_exact,product_name,test
+A0159,product,명칭,product_name,alias_exact,product_name,dev
+A0160,product,base_unit,base_unit,alias_exact,base_unit,test
+A0161,product,baseunit,base_unit,alias_exact,base_unit,dev
+A0162,product,기준단위,base_unit,alias_exact,base_unit,test
+A0163,product,기본단위,base_unit,alias_exact,base_unit,test
+A0164,product,unit,base_unit,alias_exact,base_unit,test
+A0165,product,uom,base_unit,alias_exact,base_unit,dev
+A0166,product,단위,base_unit,alias_exact,base_unit,dev
+A0167,product,수량단위,base_unit,alias_exact,base_unit,dev
+A0168,product,단위명,base_unit,alias_exact,base_unit,dev
+A0169,product,product_type,product_type,alias_exact,product_type,test
+A0170,product,producttype,product_type,alias_exact,product_type,dev
+A0171,product,제품유형,product_type,alias_exact,product_type,test
+A0172,product,제품구분,product_type,alias_exact,product_type,test
+A0173,product,품목유형,product_type,alias_exact,product_type,dev
+A0174,product,품목구분,product_type,alias_exact,product_type,test
+A0175,product,type,product_type,alias_exact,product_type,test
+A0176,product,유형,product_type,alias_exact,product_type,test
+A0177,product,구분,product_type,alias_exact,product_type,test
+A0178,product,safety_stock_qty,safety_stock_qty,alias_exact,safety_stock_qty,dev
+A0179,product,safety_stock,safety_stock_qty,alias_exact,safety_stock_qty,dev
+A0180,product,safetystock,safety_stock_qty,alias_exact,safety_stock_qty,test
+A0181,product,안전재고,safety_stock_qty,alias_exact,safety_stock_qty,dev
+A0182,product,안전재고량,safety_stock_qty,alias_exact,safety_stock_qty,test
+A0183,product,안전재고수량,safety_stock_qty,alias_exact,safety_stock_qty,test
+A0184,product,PRODUCT ID,product_id,alias_format,product_id,test
+A0185,product,PRODUCTID,product_id,alias_format,product_id,dev
+A0186,product,PRODUCT NAME,product_name,alias_format,product_name,dev
+A0187,product,PRODUCTNAME,product_name,alias_format,product_name,test
+A0188,product,BASE UNIT,base_unit,alias_format,base_unit,dev
+A0189,product,BASEUNIT,base_unit,alias_format,base_unit,test
+A0190,product,PRODUCT TYPE,product_type,alias_format,product_type,test
+A0191,product,PRODUCTTYPE,product_type,alias_format,product_type,test
+A0192,product,SAFETY STOCK QTY,safety_stock_qty,alias_format,safety_stock_qty,test
+A0193,product,SAFETY STOCK,safety_stock_qty,alias_format,safety_stock_qty,dev
+A0194,product,품목번호,product_id,synonym,,test
+A0195,product,상품코드,product_id,synonym,,test
+A0196,product,모델코드,product_id,synonym,,dev
+A0197,product,제품 명칭,product_name,synonym,,test
+A0198,product,모델명,product_name,synonym,,test
+A0199,product,상품명,product_name,synonym,,dev
+A0200,product,재고단위,base_unit,synonym,,test
+A0201,product,관리단위,base_unit,synonym,,test
+A0202,product,품목계정,product_type,synonym,,dev
+A0203,product,완/반제품 구분,product_type,synonym,,dev
+A0204,product,최소재고,safety_stock_qty,synonym,,dev
+A0205,product,Min Stock,safety_stock_qty,synonym,,test
+A0206,product,최소 유지 재고,safety_stock_qty,synonym,,dev
+A0207,product,PRD_CD,product_id,typo,,test
+A0208,product,ITEM_NO,product_id,typo,,dev
+A0209,product,제품몀,product_name,typo,,test
+A0210,product,BASE UOM,base_unit,typo,,test
+A0211,product,SS_QTY,safety_stock_qty,typo,,dev
+A0212,product,안전제고,safety_stock_qty,typo,,test
+A0213,product,PROD_TYPE,product_type,typo,,dev
+A0214,product,완제품/반제품 여부,product_type,compound,,test
+A0215,product,사내 품목코드,product_id,compound,,dev
+A0216,product,안전재고 기준량,safety_stock_qty,compound,,dev
+A0217,product,대표 품명,product_name,compound,,test
+A0218,product,재고 관리 기준단위,base_unit,compound,,dev
+A0219,product,제품 유형 구분값,product_type,compound,,dev
+A0220,product,비고,NONE,none,,test
+A0221,product,단가,NONE,none,,test
+A0222,product,표준원가,NONE,none,,dev
+A0223,product,등록일,NONE,none,,dev
+A0224,product,사용여부,NONE,none,,test
+A0225,product,공급사,NONE,none,,test
+A0226,product,규격,NONE,none,,test
+A0227,product,중량,NONE,none,,test
+A0228,product,바코드,NONE,none,,test
+A0229,product,담당자,NONE,none,,test
+A0230,product,자재코드,NONE,trap,,dev
+A0231,product,현재고,NONE,trap,,test
+A0232,product,구매단위,NONE,trap,,test
+A0233,product,판매단가,NONE,trap,,test
+A0234,product,제품군코드,NONE,trap,,test
+A0235,product,리드타임,NONE,trap,,test
+A0236,product,최대재고,NONE,trap,,dev
+A0237,product,포장단위,NONE,trap,,dev
+A0238,product,거래처 품번,NONE,trap,,test
+A0239,product,대체품 코드,NONE,trap,,dev
+A0240,product,발주점,NONE,trap,,dev
+A0241,material,material_id,material_id,alias_exact,material_id,dev
+A0242,material,material_code,material_id,alias_exact,material_id,test
+A0243,material,자재코드,material_id,alias_exact,material_id,test
+A0244,material,원자재코드,material_id,alias_exact,material_id,test
+A0245,material,자재id,material_id,alias_exact,material_id,dev
+A0246,material,code,material_id,alias_exact,material_id,test
+A0247,material,코드,material_id,alias_exact,material_id,dev
+A0248,material,id,material_id,alias_exact,material_id,dev
+A0249,material,자재,material_id,alias_exact,material_id,dev
+A0250,material,material_name,material_name,alias_exact,material_name,test
+A0251,material,자재명,material_name,alias_exact,material_name,test
+A0252,material,원자재명,material_name,alias_exact,material_name,test
+A0253,material,name,material_name,alias_exact,material_name,dev
+A0254,material,이름,material_name,alias_exact,material_name,dev
+A0255,material,명칭,material_name,alias_exact,material_name,dev
+A0256,material,품명,material_name,alias_exact,material_name,dev
+A0257,material,base_unit,base_unit,alias_exact,base_unit,test
+A0258,material,baseunit,base_unit,alias_exact,base_unit,test
+A0259,material,기준단위,base_unit,alias_exact,base_unit,test
+A0260,material,기본단위,base_unit,alias_exact,base_unit,test
+A0261,material,unit,base_unit,alias_exact,base_unit,test
+A0262,material,uom,base_unit,alias_exact,base_unit,dev
+A0263,material,단위,base_unit,alias_exact,base_unit,dev
+A0264,material,수량단위,base_unit,alias_exact,base_unit,test
+A0265,material,단위명,base_unit,alias_exact,base_unit,dev
+A0266,material,safety_stock_qty,safety_stock_qty,alias_exact,safety_stock_qty,test
+A0267,material,safety_stock,safety_stock_qty,alias_exact,safety_stock_qty,test
+A0268,material,safetystock,safety_stock_qty,alias_exact,safety_stock_qty,test
+A0269,material,안전재고,safety_stock_qty,alias_exact,safety_stock_qty,test
+A0270,material,안전재고량,safety_stock_qty,alias_exact,safety_stock_qty,dev
+A0271,material,안전재고수량,safety_stock_qty,alias_exact,safety_stock_qty,test
+A0272,material,MATERIAL ID,material_id,alias_format,material_id,test
+A0273,material,MATERIAL CODE,material_id,alias_format,material_id,dev
+A0274,material,MATERIAL NAME,material_name,alias_format,material_name,dev
+A0275,material,자 재 명,material_name,alias_format,material_name,test
+A0276,material,자재명(기준),material_name,alias_format,material_name,dev
+A0277,material,BASE UNIT,base_unit,alias_format,base_unit,dev
+A0278,material,BASEUNIT,base_unit,alias_format,base_unit,dev
+A0279,material,SAFETY STOCK QTY,safety_stock_qty,alias_format,safety_stock_qty,test
+A0280,material,SAFETY STOCK,safety_stock_qty,alias_format,safety_stock_qty,test
+A0281,material,원재료코드,material_id,synonym,,test
+A0282,material,부품코드,material_id,synonym,,test
+A0283,material,자재번호,material_id,synonym,,test
+A0284,material,Material No.,material_id,synonym,,dev
+A0285,material,원부자재명,material_name,synonym,,dev
+A0286,material,자재 명칭,material_name,synonym,,dev
+A0287,material,부품명,material_name,synonym,,test
+A0288,material,재료명,material_name,synonym,,test
+A0289,material,재고단위,base_unit,synonym,,test
+A0290,material,관리단위,base_unit,synonym,,dev
+A0291,material,최소재고,safety_stock_qty,synonym,,dev
+A0292,material,Min Stock,safety_stock_qty,synonym,,dev
+A0293,material,MAT_CD,material_id,typo,,test
+A0294,material,자제코드,material_id,typo,,test
+A0295,material,MTRL_NM,material_name,typo,,test
+A0296,material,자재몀,material_name,typo,,dev
+A0297,material,BASE UOM,base_unit,typo,,test
+A0298,material,안전제고,safety_stock_qty,typo,,test
+A0299,material,SS_QTY,safety_stock_qty,typo,,dev
+A0300,material,원자재 품목코드,material_id,compound,,dev
+A0301,material,사내 자재코드,material_id,compound,,test
+A0302,material,구매 자재명,material_name,compound,,test
+A0303,material,자재 기준단위,base_unit,compound,,dev
+A0304,material,자재 안전재고 수량,safety_stock_qty,compound,,test
+A0305,material,원재료 한글명,material_name,compound,,test
+A0306,material,비고,NONE,none,,dev
+A0307,material,단가,NONE,none,,test
+A0308,material,공급사,NONE,none,,dev
+A0309,material,리드타임,NONE,none,,dev
+A0310,material,규격,NONE,none,,test
+A0311,material,등록일,NONE,none,,test
+A0312,material,보관위치,NONE,none,,test
+A0313,material,최소발주량,NONE,none,,dev
+A0314,material,통화,NONE,none,,test
+A0315,material,담당자,NONE,none,,dev
+A0316,material,제품코드,NONE,trap,,dev
+A0317,material,공급사 코드,NONE,trap,,dev
+A0318,material,구매단위,NONE,trap,,dev
+A0319,material,발주단위,NONE,trap,,test
+A0320,material,현재고,NONE,trap,,dev
+A0321,material,공급사 자재코드,NONE,trap,,test
+A0322,material,대체자재코드,NONE,trap,,dev
+A0323,material,자재그룹,NONE,trap,,dev
+A0324,material,최대재고,NONE,trap,,dev
+A0325,material,발주점,NONE,trap,,test
+A0326,material,입고예정일,NONE,trap,,test
+A0327,bom,bom_id,bom_id,alias_exact,bom_id,test
+A0328,bom,bom_code,bom_id,alias_exact,bom_id,dev
+A0329,bom,bom코드,bom_id,alias_exact,bom_id,test
+A0330,bom,bom번호,bom_id,alias_exact,bom_id,test
+A0331,bom,bom,bom_id,alias_exact,bom_id,dev
+A0332,bom,product_id,product_id,alias_exact,product_id,test
+A0333,bom,productid,product_id,alias_exact,product_id,test
+A0334,bom,product_code,product_id,alias_exact,product_id,test
+A0335,bom,productcode,product_id,alias_exact,product_id,test
+A0336,bom,제품코드,product_id,alias_exact,product_id,test
+A0337,bom,품목코드,product_id,alias_exact,product_id,test
+A0338,bom,제품id,product_id,alias_exact,product_id,dev
+A0339,bom,품번,product_id,alias_exact,product_id,dev
+A0340,bom,itemcode,product_id,alias_exact,product_id,dev
+A0341,bom,item_code,product_id,alias_exact,product_id,dev
+A0342,bom,sku,product_id,alias_exact,product_id,test
+A0343,bom,상위품목코드,product_id,alias_exact,product_id,test
+A0344,bom,모품목코드,product_id,alias_exact,product_id,test
+A0345,bom,parent_item,product_id,alias_exact,product_id,test
+A0346,bom,제품,product_id,alias_exact,product_id,dev
+A0347,bom,모품목,product_id,alias_exact,product_id,dev
+A0348,bom,bom_version,bom_version,alias_exact,bom_version,dev
+A0349,bom,version,bom_version,alias_exact,bom_version,dev
+A0350,bom,버전,bom_version,alias_exact,bom_version,test
+A0351,bom,bom버전,bom_version,alias_exact,bom_version,dev
+A0352,bom,리비전,bom_version,alias_exact,bom_version,test
+A0353,bom,revision,bom_version,alias_exact,bom_version,dev
+A0354,bom,개정,bom_version,alias_exact,bom_version,dev
+A0355,bom,rev,bom_version,alias_exact,bom_version,test
+A0356,bom,status,status,alias_exact,status,test
+A0357,bom,bom_status,status,alias_exact,status,dev
+A0358,bom,bom상태,status,alias_exact,status,test
+A0359,bom,승인상태,status,alias_exact,status,test
+A0360,bom,상태,status,alias_exact,status,dev
+A0361,bom,is_active,is_active,alias_exact,is_active,test
+A0362,bom,active,is_active,alias_exact,is_active,dev
+A0363,bom,활성,is_active,alias_exact,is_active,test
+A0364,bom,활성여부,is_active,alias_exact,is_active,test
+A0365,bom,사용여부,is_active,alias_exact,is_active,test
+A0366,bom,valid_from,valid_from,alias_exact,valid_from,test
+A0367,bom,유효시작일,valid_from,alias_exact,valid_from,dev
+A0368,bom,적용시작일,valid_from,alias_exact,valid_from,test
+A0369,bom,시작일,valid_from,alias_exact,valid_from,dev
+A0370,bom,valid_to,valid_to,alias_exact,valid_to,dev
+A0371,bom,유효종료일,valid_to,alias_exact,valid_to,test
+A0372,bom,적용종료일,valid_to,alias_exact,valid_to,dev
+A0373,bom,종료일,valid_to,alias_exact,valid_to,dev
+A0374,bom,base_qty,base_qty,alias_exact,base_qty,test
+A0375,bom,기준수량,base_qty,alias_exact,base_qty,test
+A0376,bom,기준생산량,base_qty,alias_exact,base_qty,test
+A0377,bom,line_no,line_no,alias_exact,line_no,test
+A0378,bom,라인번호,line_no,alias_exact,line_no,dev
+A0379,bom,행번호,line_no,alias_exact,line_no,test
+A0380,bom,순번,line_no,alias_exact,line_no,test
+A0381,bom,항번,line_no,alias_exact,line_no,dev
+A0382,bom,component_type,component_type,alias_exact,component_type,test
+A0383,bom,구성유형,component_type,alias_exact,component_type,test
+A0384,bom,구성품유형,component_type,alias_exact,component_type,dev
+A0385,bom,자재구분,component_type,alias_exact,component_type,test
+A0386,bom,유형,component_type,alias_exact,component_type,test
+A0387,bom,구분,component_type,alias_exact,component_type,test
+A0388,bom,type,component_type,alias_exact,component_type,test
+A0389,bom,component_id,component_id,alias_exact,component_id,test
+A0390,bom,component_code,component_id,alias_exact,component_id,test
+A0391,bom,구성품코드,component_id,alias_exact,component_id,test
+A0392,bom,자재코드,component_id,alias_exact,component_id,test
+A0393,bom,material_code,component_id,alias_exact,component_id,test
+A0394,bom,하위품목코드,component_id,alias_exact,component_id,dev
+A0395,bom,구성품,component_id,alias_exact,component_id,test
+A0396,bom,qty_per,qty_per,alias_exact,qty_per,dev
+A0397,bom,소요량,qty_per,alias_exact,qty_per,dev
+A0398,bom,단위소요량,qty_per,alias_exact,qty_per,test
+A0399,bom,구성수량,qty_per,alias_exact,qty_per,dev
+A0400,bom,수량,qty_per,alias_exact,qty_per,test
+A0401,bom,qty,qty_per,alias_exact,qty_per,test
+A0402,bom,quantity,qty_per,alias_exact,qty_per,test
+A0403,bom,unit,unit,alias_exact,unit,test
+A0404,bom,uom,unit,alias_exact,unit,dev
+A0405,bom,단위,unit,alias_exact,unit,test
+A0406,bom,수량단위,unit,alias_exact,unit,dev
+A0407,bom,단위명,unit,alias_exact,unit,test
+A0408,bom,scrap_rate,scrap_rate,alias_exact,scrap_rate,test
+A0409,bom,scrap,scrap_rate,alias_exact,scrap_rate,dev
+A0410,bom,스크랩률,scrap_rate,alias_exact,scrap_rate,test
+A0411,bom,스크랩비율,scrap_rate,alias_exact,scrap_rate,dev
+A0412,bom,불량률,scrap_rate,alias_exact,scrap_rate,dev
+A0413,bom,손실률,scrap_rate,alias_exact,scrap_rate,dev
+A0414,bom,BOM ID,bom_id,alias_format,bom_id,test
+A0415,bom,BOM CODE,bom_id,alias_format,bom_id,test
+A0416,bom,PRODUCT ID,product_id,alias_format,product_id,dev
+A0417,bom,PRODUCTID,product_id,alias_format,product_id,test
+A0418,bom,BOM VERSION,bom_version,alias_format,bom_version,dev
+A0419,bom,VERSION,bom_version,alias_format,bom_version,test
+A0420,bom,STATUS,status,alias_format,status,test
+A0421,bom,BOM STATUS,status,alias_format,status,test
+A0422,bom,IS ACTIVE,is_active,alias_format,is_active,dev
+A0423,bom,ACTIVE,is_active,alias_format,is_active,test
+A0424,bom,VALID FROM,valid_from,alias_format,valid_from,dev
+A0425,bom,유효 시작일,valid_from,alias_format,valid_from,dev
+A0426,bom,유효시작일(기준),valid_from,alias_format,valid_from,test
+A0427,bom,VALID TO,valid_to,alias_format,valid_to,dev
+A0428,bom,유효 종료일,valid_to,alias_format,valid_to,dev
+A0429,bom,유효종료일(기준),valid_to,alias_format,valid_to,test
+A0430,bom,BASE QTY,base_qty,alias_format,base_qty,test
+A0431,bom,기준 수량,base_qty,alias_format,base_qty,test
+A0432,bom,기준수량(기준),base_qty,alias_format,base_qty,test
+A0433,bom,LINE NO,line_no,alias_format,line_no,test
+A0434,bom,라인 번호,line_no,alias_format,line_no,test
+A0435,bom,라인번호(기준),line_no,alias_format,line_no,test
+A0436,bom,COMPONENT TYPE,component_type,alias_format,component_type,test
+A0437,bom,구성 유형,component_type,alias_format,component_type,test
+A0438,bom,구성유형(기준),component_type,alias_format,component_type,test
+A0439,bom,COMPONENT ID,component_id,alias_format,component_id,test
+A0440,bom,COMPONENT CODE,component_id,alias_format,component_id,dev
+A0441,bom,QTY PER,qty_per,alias_format,qty_per,test
+A0442,bom,소 요 량,qty_per,alias_format,qty_per,test
+A0443,bom,소요량(기준),qty_per,alias_format,qty_per,test
+A0444,bom,UNIT,unit,alias_format,unit,test
+A0445,bom,UOM,unit,alias_format,unit,test
+A0446,bom,SCRAP RATE,scrap_rate,alias_format,scrap_rate,dev
+A0447,bom,SCRAP,scrap_rate,alias_format,scrap_rate,test
+A0448,bom,BOM No.,bom_id,synonym,,dev
+A0449,bom,배합표 번호,bom_id,synonym,,dev
+A0450,bom,모품번,product_id,synonym,,dev
+A0451,bom,완제품코드,product_id,synonym,,dev
+A0452,bom,생산품목코드,product_id,synonym,,dev
+A0453,bom,개정번호,bom_version,synonym,,dev
+A0454,bom,차수,bom_version,synonym,,dev
+A0455,bom,결재상태,status,synonym,,dev
+A0456,bom,승인여부,status,synonym,,test
+A0457,bom,사용 유무,is_active,synonym,,test
+A0458,bom,적용여부,is_active,synonym,,dev
+A0459,bom,시작일자,valid_from,synonym,,dev
+A0460,bom,적용일,valid_from,synonym,,test
+A0461,bom,효력발생일,valid_from,synonym,,dev
+A0462,bom,만료일,valid_to,synonym,,test
+A0463,bom,종료일자,valid_to,synonym,,test
+A0464,bom,적용종료,valid_to,synonym,,test
+A0465,bom,기준생산수량,base_qty,synonym,,test
+A0466,bom,배치수량,base_qty,synonym,,test
+A0467,bom,항목번호,line_no,synonym,,dev
+A0468,bom,Seq,line_no,synonym,,dev
+A0469,bom,자재/반제품 구분,component_type,synonym,,test
+A0470,bom,투입품 유형,component_type,synonym,,dev
+A0471,bom,자품번,component_id,synonym,,test
+A0472,bom,자품목코드,component_id,synonym,,test
+A0473,bom,투입자재코드,component_id,synonym,,dev
+A0474,bom,원재료코드,component_id,synonym,,test
+A0475,bom,투입량,qty_per,synonym,,test
+A0476,bom,원단위,qty_per,synonym,,test
+A0477,bom,필요수량,qty_per,synonym,,dev
+A0478,bom,사용량,qty_per,synonym,,test
+A0479,bom,소요단위,unit,synonym,,dev
+A0480,bom,로스율,scrap_rate,synonym,,dev
+A0481,bom,감모율,scrap_rate,synonym,,test
+A0482,bom,Loss Rate,scrap_rate,synonym,,dev
+A0483,bom,BOM_VER,bom_version,typo,,test
+A0484,bom,소요랑,qty_per,typo,,test
+A0485,bom,COMP_CD,component_id,typo,,test
+A0486,bom,스크렙률,scrap_rate,typo,,dev
+A0487,bom,VALID_FR,valid_from,typo,,test
+A0488,bom,VALID_TO_DT,valid_to,typo,,test
+A0489,bom,ACTIVE_YN,is_active,typo,,test
+A0490,bom,PARENT_ITEM_CD,product_id,typo,,dev
+A0491,bom,구성품 소요량 합계,qty_per,compound,,test
+A0492,bom,상위 제품코드,product_id,compound,,dev
+A0493,bom,하위 자재코드,component_id,compound,,test
+A0494,bom,BOM 적용 시작일,valid_from,compound,,dev
+A0495,bom,BOM 유효 종료일,valid_to,compound,,test
+A0496,bom,BOM 개정 버전,bom_version,compound,,test
+A0497,bom,구성품 투입 단위,unit,compound,,test
+A0498,bom,공정 손실률,scrap_rate,compound,,test
+A0499,bom,비고,NONE,none,,test
+A0500,bom,작성자,NONE,none,,test
+A0501,bom,승인자,NONE,none,,dev
+A0502,bom,공정코드,NONE,none,,test
+A0503,bom,작업장,NONE,none,,test
+A0504,bom,단가,NONE,none,,test
+A0505,bom,등록일시,NONE,none,,test
+A0506,bom,도면번호,NONE,none,,dev
+A0507,bom,공급사,NONE,none,,test
+A0508,bom,수율,NONE,trap,,dev
+A0509,bom,구성품명,NONE,trap,,test
+A0510,bom,상위품목명,NONE,trap,,test
+A0511,bom,대체자재,NONE,trap,,test
+A0512,bom,공정순서,NONE,trap,,test
+A0513,bom,리드타임,NONE,trap,,test
+A0514,bom,승인일,NONE,trap,,dev
+A0515,bom,개정일자,NONE,trap,,test
+A0516,bom,자재 단가,NONE,trap,,test
+A0517,bom,현재고,NONE,trap,,test
+A0518,bom,작업시간,NONE,trap,,test
+A0519,inventory,item_type,item_type,alias_exact,item_type,test
+A0520,inventory,품목구분,item_type,alias_exact,item_type,dev
+A0521,inventory,품목유형,item_type,alias_exact,item_type,dev
+A0522,inventory,구분,item_type,alias_exact,item_type,test
+A0523,inventory,유형,item_type,alias_exact,item_type,test
+A0524,inventory,type,item_type,alias_exact,item_type,dev
+A0525,inventory,item_id,item_id,alias_exact,item_id,test
+A0526,inventory,item_code,item_id,alias_exact,item_id,dev
+A0527,inventory,품목코드,item_id,alias_exact,item_id,test
+A0528,inventory,품번,item_id,alias_exact,item_id,test
+A0529,inventory,제품코드,item_id,alias_exact,item_id,dev
+A0530,inventory,자재코드,item_id,alias_exact,item_id,test
+A0531,inventory,재고코드,item_id,alias_exact,item_id,dev
+A0532,inventory,code,item_id,alias_exact,item_id,test
+A0533,inventory,코드,item_id,alias_exact,item_id,test
+A0534,inventory,id,item_id,alias_exact,item_id,test
+A0535,inventory,품목,item_id,alias_exact,item_id,test
+A0536,inventory,as_of_date,as_of_date,alias_exact,as_of_date,test
+A0537,inventory,기준일,as_of_date,alias_exact,as_of_date,dev
+A0538,inventory,재고기준일,as_of_date,alias_exact,as_of_date,test
+A0539,inventory,기준일자,as_of_date,alias_exact,as_of_date,test
+A0540,inventory,date,as_of_date,alias_exact,as_of_date,test
+A0541,inventory,날짜,as_of_date,alias_exact,as_of_date,dev
+A0542,inventory,일자,as_of_date,alias_exact,as_of_date,dev
+A0543,inventory,on_hand_qty,on_hand_qty,alias_exact,on_hand_qty,test
+A0544,inventory,on_hand,on_hand_qty,alias_exact,on_hand_qty,test
+A0545,inventory,현재고,on_hand_qty,alias_exact,on_hand_qty,dev
+A0546,inventory,현재고량,on_hand_qty,alias_exact,on_hand_qty,dev
+A0547,inventory,재고량,on_hand_qty,alias_exact,on_hand_qty,test
+A0548,inventory,보유재고,on_hand_qty,alias_exact,on_hand_qty,test
+A0549,inventory,보유수량,on_hand_qty,alias_exact,on_hand_qty,test
+A0550,inventory,재고,on_hand_qty,alias_exact,on_hand_qty,dev
+A0551,inventory,stock,on_hand_qty,alias_exact,on_hand_qty,test
+A0552,inventory,qty,on_hand_qty,alias_exact,on_hand_qty,dev
+A0553,inventory,수량,on_hand_qty,alias_exact,on_hand_qty,test
+A0554,inventory,allocated_qty,allocated_qty,alias_exact,allocated_qty,test
+A0555,inventory,allocated,allocated_qty,alias_exact,allocated_qty,test
+A0556,inventory,할당재고,allocated_qty,alias_exact,allocated_qty,dev
+A0557,inventory,할당수량,allocated_qty,alias_exact,allocated_qty,test
+A0558,inventory,할당량,allocated_qty,alias_exact,allocated_qty,test
+A0559,inventory,예약재고,allocated_qty,alias_exact,allocated_qty,test
+A0560,inventory,available_qty,available_qty,alias_exact,available_qty,dev
+A0561,inventory,available,available_qty,alias_exact,available_qty,dev
+A0562,inventory,가용재고,available_qty,alias_exact,available_qty,test
+A0563,inventory,가용수량,available_qty,alias_exact,available_qty,dev
+A0564,inventory,unit,unit,alias_exact,unit,test
+A0565,inventory,uom,unit,alias_exact,unit,dev
+A0566,inventory,단위,unit,alias_exact,unit,dev
+A0567,inventory,수량단위,unit,alias_exact,unit,dev
+A0568,inventory,단위명,unit,alias_exact,unit,test
+A0569,inventory,ITEM TYPE,item_type,alias_format,item_type,dev
+A0570,inventory,품목 구분,item_type,alias_format,item_type,dev
+A0571,inventory,품목구분(기준),item_type,alias_format,item_type,test
+A0572,inventory,ITEM ID,item_id,alias_format,item_id,test
+A0573,inventory,ITEM CODE,item_id,alias_format,item_id,dev
+A0574,inventory,AS OF DATE,as_of_date,alias_format,as_of_date,test
+A0575,inventory,기 준 일,as_of_date,alias_format,as_of_date,test
+A0576,inventory,기준일(기준),as_of_date,alias_format,as_of_date,test
+A0577,inventory,ON HAND QTY,on_hand_qty,alias_format,on_hand_qty,test
+A0578,inventory,ON HAND,on_hand_qty,alias_format,on_hand_qty,test
+A0579,inventory,ALLOCATED QTY,allocated_qty,alias_format,allocated_qty,test
+A0580,inventory,ALLOCATED,allocated_qty,alias_format,allocated_qty,dev
+A0581,inventory,AVAILABLE QTY,available_qty,alias_format,available_qty,test
+A0582,inventory,AVAILABLE,available_qty,alias_format,available_qty,test
+A0583,inventory,UNIT,unit,alias_format,unit,dev
+A0584,inventory,UOM,unit,alias_format,unit,test
+A0585,inventory,제품/자재 구분,item_type,synonym,,dev
+A0586,inventory,품목 종류,item_type,synonym,,test
+A0587,inventory,품목번호,item_id,synonym,,test
+A0588,inventory,자재번호,item_id,synonym,,dev
+A0589,inventory,SKU,item_id,synonym,,dev
+A0590,inventory,재고일자,as_of_date,synonym,,dev
+A0591,inventory,조사일,as_of_date,synonym,,dev
+A0592,inventory,실사일자,as_of_date,synonym,,test
+A0593,inventory,스냅샷 일자,as_of_date,synonym,,dev
+A0594,inventory,장부재고,on_hand_qty,synonym,,dev
+A0595,inventory,실재고,on_hand_qty,synonym,,dev
+A0596,inventory,보유량,on_hand_qty,synonym,,dev
+A0597,inventory,Stock Qty,on_hand_qty,synonym,,test
+A0598,inventory,재고수량,on_hand_qty,synonym,,test
+A0599,inventory,예약수량,allocated_qty,synonym,,dev
+A0600,inventory,기할당수량,allocated_qty,synonym,,test
+A0601,inventory,Reserved Qty,allocated_qty,synonym,,dev
+A0602,inventory,사용가능재고,available_qty,synonym,,test
+A0603,inventory,가용량,available_qty,synonym,,test
+A0604,inventory,Free Stock,available_qty,synonym,,test
+A0605,inventory,계량단위,unit,synonym,,dev
+A0606,inventory,현제고,on_hand_qty,typo,,dev
+A0607,inventory,ALLOC_QTY,allocated_qty,typo,,test
+A0608,inventory,AVAIL_QTY,available_qty,typo,,test
+A0609,inventory,ITEM_CD,item_id,typo,,test
+A0610,inventory,ONHAND_QTY,on_hand_qty,alias_format,on_hand_qty,test
+A0611,inventory,STK_DT,as_of_date,typo,,test
+A0612,inventory,ITEM_TP,item_type,typo,,test
+A0613,inventory,할당제고,allocated_qty,typo,,dev
+A0614,inventory,당일 현재고,on_hand_qty,compound,,dev
+A0615,inventory,할당된 재고 수량,allocated_qty,compound,,test
+A0616,inventory,창고 보유 재고 수량,on_hand_qty,compound,,test
+A0617,inventory,출고 가능한 가용 수량,available_qty,compound,,test
+A0618,inventory,재고 조사 기준일자,as_of_date,compound,,test
+A0619,inventory,재고 품목 구분값,item_type,compound,,test
+A0620,inventory,재고 품목코드,item_id,compound,,test
+A0621,inventory,비고,NONE,none,,test
+A0622,inventory,창고,NONE,none,,test
+A0623,inventory,로케이션,NONE,none,,test
+A0624,inventory,담당자,NONE,none,,test
+A0625,inventory,단가,NONE,none,,test
+A0626,inventory,재고금액,NONE,none,,dev
+A0627,inventory,LOT번호,NONE,none,,dev
+A0628,inventory,유통기한,NONE,none,,test
+A0629,inventory,등록일시,NONE,none,,dev
+A0630,inventory,안전재고,NONE,trap,,test
+A0631,inventory,입고예정수량,NONE,trap,,test
+A0632,inventory,발주잔량,NONE,trap,,test
+A0633,inventory,불량재고,NONE,trap,,dev
+A0634,inventory,입고일,NONE,trap,,test
+A0635,inventory,출고수량,NONE,trap,,dev
+A0636,inventory,품목명,NONE,trap,,test
+A0637,inventory,창고코드,NONE,trap,,test
+A0638,inventory,전월재고,NONE,trap,,test
+A0639,inventory,적정재고,NONE,trap,,test
+A0640,inventory,검사대기 수량,NONE,trap,,test

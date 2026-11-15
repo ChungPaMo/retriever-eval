@@ -1,0 +1,70 @@
+﻿kind,code,name
+product,P-1001,백상지 80g A4 500매
+product,P-1002,백상지 100g A4 500매
+product,P-1003,백상지 80g A3 500매
+product,P-1004,복사용지 75g A4 2500매 박스
+product,P-1005,아트지 150g 국전
+product,P-1006,아트지 200g 국전
+product,P-1007,스노우지 150g 국전
+product,P-1008,크라프트지 120g 롤 1000mm
+product,P-1009,크라프트지 80g 롤 1000mm
+product,P-1010,화장지 원단 2겹 30m
+product,P-1011,화장지 원단 3겹 30m
+product,P-1012,골판지 원단 SW A골
+product,P-1013,골판지 원단 DW AB골
+product,MP-2001,샌드위치 패널 EPS 50T 벽체용
+product,MP-2002,샌드위치 패널 EPS 75T 벽체용
+product,MP-2003,샌드위치 패널 EPS 100T 지붕용
+product,MP-2004,샌드위치 패널 우레탄 50T 벽체용
+product,MP-2005,샌드위치 패널 글라스울 75T 벽체용
+product,MP-2006,메탈 패널 알루미늄 3T 불소도장
+product,MP-2007,메탈 패널 아연도 1.2T
+product,MP-2008,스테인리스 패널 SUS304 1.2T 헤어라인
+product,MP-2009,스테인리스 패널 SUS304 1.5T 헤어라인
+product,MP-2010,스테인리스 패널 SUS316 1.2T 미러
+product,MP-2011,징크 패널 0.7T 돌출이음
+product,MP-2012,타공 패널 알루미늄 2T
+product,PK-3001,골판지 상자 A형 300x200x150
+product,PK-3002,골판지 상자 A형 400x300x200
+product,PK-3003,골판지 상자 B형 300x200x150
+product,PK-3004,컬러박스 화장품용 소
+product,PK-3005,컬러박스 화장품용 대
+product,PK-3006,쇼핑백 크라프트 중
+product,PK-3007,쇼핑백 크라프트 대
+product,PK-3008,라벨 스티커 원형 50mm 유광
+product,PK-3009,라벨 스티커 원형 50mm 무광
+product,PK-3010,리플렛 A4 3단 접지
+product,PK-3011,카탈로그 A4 16p 중철
+product,PK-3012,포장 완충재 펄프몰드 6구
+material,M-0101,표백 화학펄프 활엽수 BHKP
+material,M-0102,표백 화학펄프 침엽수 BSKP
+material,M-0103,폐지 OCC 국내산
+material,M-0104,폐지 ONP 신문고지
+material,M-0105,탄산칼슘 충전제
+material,M-0106,전분 사이징제
+material,M-0201,컬러강판 0.5T 백색
+material,M-0202,컬러강판 0.5T 은회색
+material,M-0203,컬러강판 0.6T 백색
+material,M-0204,EPS 단열재 50T 비드법 2종
+material,M-0205,EPS 단열재 75T 비드법 2종
+material,M-0206,우레탄 원액 폴리올
+material,M-0207,우레탄 원액 MDI
+material,M-0208,글라스울 48K 75T
+material,M-0209,알루미늄 코일 A3003 3T
+material,M-0210,스테인리스 코일 SUS304 1.2T
+material,M-0211,스테인리스 코일 SUS316 1.2T
+material,M-0212,실란트 변성실리콘 회색
+material,M-0213,셀프 드릴링 스크류 5x50
+material,M-0301,SC마닐라지 300g
+material,M-0302,SC마닐라지 350g
+material,M-0303,아이보리지 300g
+material,M-0304,골판지 원지 라이너 KLB 180g
+material,M-0305,골판지 원지 골심지 120g
+material,M-0306,옵셋 잉크 CMYK 먹
+material,M-0307,옵셋 잉크 CMYK 청
+material,M-0308,UV 코팅액 유광
+material,M-0309,UV 코팅액 무광
+material,M-0310,핫멜트 접착제
+material,M-0311,OPP 필름 20mic 유광
+material,M-0312,OPP 필름 20mic 무광
+material,M-0313,PE 손잡이 끈 흑색

@@ -1,0 +1,89 @@
+{
+ "dataset": "mapping-eval-v1",
+ "synthetic": true,
+ "header_queries": {
+  "n": 640,
+  "by_category": {
+   "alias_exact": {
+    "dev": 110,
+    "test": 164
+   },
+   "alias_format": {
+    "dev": 27,
+    "test": 54
+   },
+   "synonym": {
+    "dev": 50,
+    "test": 53
+   },
+   "typo": {
+    "dev": 15,
+    "test": 24
+   },
+   "compound": {
+    "dev": 16,
+    "test": 22
+   },
+   "none": {
+    "dev": 16,
+    "test": 32
+   },
+   "trap": {
+    "dev": 20,
+    "test": 37
+   }
+  }
+ },
+ "master_items": 69,
+ "value_queries": {
+  "n": 160,
+  "by_category": {
+   "code_variant": {
+    "dev": 12,
+    "test": 6
+   },
+   "name_exact": {
+    "dev": 3,
+    "test": 5
+   },
+   "name_spacing": {
+    "dev": 2,
+    "test": 12
+   },
+   "name_reorder": {
+    "dev": 10,
+    "test": 6
+   },
+   "name_synonym": {
+    "dev": 11,
+    "test": 13
+   },
+   "spec_pick": {
+    "dev": 11,
+    "test": 9
+   },
+   "spec_trap": {
+    "dev": 8,
+    "test": 12
+   },
+   "ambiguous": {
+    "dev": 4,
+    "test": 12
+   },
+   "conflict": {
+    "dev": 2,
+    "test": 6
+   },
+   "unregistered": {
+    "dev": 5,
+    "test": 11
+   }
+  }
+ },
+ "sha256": {
+  "fields.json": "13822ea7e30e0b9c83a83a6334d15c8996c383d25566ca0683ad6535a939a9a2",
+  "header_queries.csv": "115e042248d61d6189d03236a83d330a7ac5e3a0b8bd77586b124d60e8c62dd4",
+  "master_items.csv": "2d105e818116d389b786dc187f31f5148415e39f4f7e4c63c80709d32988b5ab",
+  "value_queries.csv": "468454f230c2aacda90af392cb8d9a2af374c6bfb63c7e3946d217620fc7761b"
+ }
+}

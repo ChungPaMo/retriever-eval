@@ -1,0 +1,161 @@
+﻿qid,query,gold,accept,category,rule_pred,split
+B0001,p-1001,P-1001,,code_variant,P-1001,test
+B0002,P1001,P-1001,,code_variant,,dev
+B0003,P-01002,P-1002,,code_variant,,dev
+B0004,p1004,P-1004,,code_variant,,dev
+B0005,MP2008,MP-2008,,code_variant,,test
+B0006,mp-2010,MP-2010,,code_variant,MP-2010,dev
+B0007,MP 2003,MP-2003,,code_variant,,test
+B0008,pk-3001,PK-3001,,code_variant,PK-3001,test
+B0009,PK3OO2,PK-3002,,code_variant,,dev
+B0010,PK_3009,PK-3009,,code_variant,,dev
+B0011,M0210,M-0210,,code_variant,,dev
+B0012,m-0101,M-0101,,code_variant,M-0101,dev
+B0013,M-101,M-0101,,code_variant,,dev
+B0014,M.0204,M-0204,,code_variant,,test
+B0015,M-O3O6,M-0306,,code_variant,,dev
+B0016,m0312,M-0312,,code_variant,,dev
+B0017,P-1O13,P-1013,,code_variant,,dev
+B0018,MP-02011,MP-2011,,code_variant,,test
+B0019,백상지 80g A4 500매,P-1001,,name_exact,P-1001,test
+B0020,샌드위치 패널 EPS 50T 벽체용,MP-2001,,name_exact,MP-2001,test
+B0021,골판지 상자 A형 300x200x150,PK-3001,,name_exact,PK-3001,dev
+B0022,표백 화학펄프 활엽수 BHKP,M-0101,,name_exact,M-0101,test
+B0023,컬러강판 0.5T 백색,M-0201,,name_exact,M-0201,test
+B0024,SC마닐라지 300g,M-0301,,name_exact,M-0301,dev
+B0025,옵셋 잉크 CMYK 먹,M-0306,,name_exact,M-0306,test
+B0026,징크 패널 0.7T 돌출이음,MP-2011,,name_exact,MP-2011,dev
+B0027,백상지80gA4 500매,P-1001,,name_spacing,,test
+B0028,샌드위치패널 EPS 50T 벽체용,MP-2001,,name_spacing,,test
+B0029,스테인리스패널 SUS304 1.2T 헤어라인,MP-2008,,name_spacing,,dev
+B0030,골판지상자 A형 300×200×150,PK-3001,,name_spacing,,test
+B0031,크라프트지120g 롤1000mm,P-1008,,name_spacing,,test
+B0032,컬러강판0.5T백색,M-0201,,name_spacing,,test
+B0033,EPS단열재 50T 비드법2종,M-0204,,name_spacing,,test
+B0034,OPP필름 20mic 유광,M-0311,,name_spacing,,test
+B0035,라벨스티커 원형50mm 무광,PK-3009,,name_spacing,,test
+B0036,화장지원단 2겹 30m,P-1010,,name_spacing,,test
+B0037,SC 마닐라지 350g,M-0302,,name_spacing,,dev
+B0038,골판지원지 라이너 KLB180g,M-0304,,name_spacing,,test
+B0039,메탈패널 알루미늄3T 불소도장,MP-2006,,name_spacing,,test
+B0040,쇼핑백크라프트 대,PK-3007,,name_spacing,,test
+B0041,A4 백상지 80g (500매),P-1001,,name_reorder,,dev
+B0042,EPS 샌드위치 패널 벽체용 50T,MP-2001,,name_reorder,,dev
+B0043,SUS304 헤어라인 스테인리스 패널 1.2T,MP-2008,,name_reorder,,test
+B0044,A형 골판지 상자 (300x200x150),PK-3001,,name_reorder,,test
+B0045,국전 아트지 150g,P-1005,,name_reorder,,test
+B0046,롤 크라프트지 1000mm 120g,P-1008,,name_reorder,,dev
+B0047,백색 컬러강판 0.5T,M-0201,,name_reorder,,dev
+B0048,활엽수 표백 화학펄프(BHKP),M-0101,,name_reorder,,test
+B0049,비드법 2종 EPS 단열재 75T,M-0205,,name_reorder,,test
+B0050,유광 UV 코팅액,M-0308,,name_reorder,,test
+B0051,무광 OPP 필름 20mic,M-0312,,name_reorder,,dev
+B0052,3단 접지 리플렛 A4,PK-3010,,name_reorder,,dev
+B0053,중철 카탈로그 16p A4,PK-3011,,name_reorder,,dev
+B0054,알루미늄 타공 패널 2T,MP-2012,,name_reorder,,dev
+B0055,6구 펄프몰드 포장 완충재,PK-3012,,name_reorder,,dev
+B0056,SUS316 스테인리스 코일 1.2T,M-0211,,name_reorder,,dev
+B0057,A4 copy paper 75g 2500 sheets box,P-1004,,name_synonym,,test
+B0058,Sandwich panel PU 50T wall,MP-2004,,name_synonym,,dev
+B0059,stainless panel 316 mirror 1.2t,MP-2010,,name_synonym,,test
+B0060,kraft shopping bag L,PK-3007,,name_synonym,,test
+B0061,판넬 EPS 100T 지붕,MP-2003,,name_synonym,,dev
+B0062,스뎅 판넬 304 HL 1.2T,MP-2008,,name_synonym,,dev
+B0063,BHKP 펄프,M-0101,,name_synonym,,test
+B0064,침엽수 펄프 BSKP,M-0102,,name_synonym,,test
+B0065,OCC 고지,M-0103,,name_synonym,,test
+B0066,신문 폐지,M-0104,,name_synonym,,test
+B0067,칼라강판 백색 0.5mm,M-0201,,name_synonym,,test
+B0068,PU 폴리올,M-0206,,name_synonym,,test
+B0069,유리섬유 단열재 48K 75mm,M-0208,,name_synonym,,dev
+B0070,먹 잉크 옵셋,M-0306,,name_synonym,,dev
+B0071,cyan offset ink,M-0307,,name_synonym,,dev
+B0072,무광 UV 바니시,M-0309,,name_synonym,,dev
+B0073,OPP 무광필름 20㎛,M-0312,,name_synonym,,dev
+B0074,GI 메탈 패널 1.2mm,MP-2007,,name_synonym,,dev
+B0075,경질우레탄 샌드위치 판넬 50mm 벽,MP-2004,,name_synonym,,test
+B0076,스노우 화이트지 150g 국전,P-1007,,name_synonym,,test
+B0077,두루마리 화장지 원단 3ply,P-1011,,name_synonym,,test
+B0078,핫멜트 본드,M-0310,,name_synonym,,dev
+B0079,직결 피스 5x50,M-0213,,name_synonym,,test
+B0080,쇼핑백 손잡이 끈 PE 검정,M-0313,,name_synonym,,dev
+B0081,백상지 100g A4,P-1002,,spec_pick,,test
+B0082,백상지 A3 80g,P-1003,,spec_pick,,dev
+B0083,샌드위치 패널 EPS 75T,MP-2002,,spec_pick,,dev
+B0084,SUS304 1.5T 헤어라인 패널,MP-2009,,spec_pick,,dev
+B0085,골판지 상자 A형 400x300x200,PK-3002,,spec_pick,PK-3002,test
+B0086,골판지 상자 B형,PK-3003,,spec_pick,,dev
+B0087,라벨 스티커 50mm 무광,PK-3009,,spec_pick,,test
+B0088,컬러강판 0.6T 백색,M-0203,,spec_pick,M-0203,dev
+B0089,컬러강판 은회색 0.5T,M-0202,,spec_pick,,dev
+B0090,SC마닐라 350g,M-0302,,spec_pick,,dev
+B0091,EPS 75T 단열재,M-0205,,spec_pick,,dev
+B0092,아트지 200g,P-1006,,spec_pick,,test
+B0093,화장지 원단 3겹,P-1011,,spec_pick,,dev
+B0094,크라프트지 80g 롤,P-1009,,spec_pick,,test
+B0095,컬러박스 화장품 대,PK-3005,,spec_pick,,test
+B0096,쇼핑백 크라프트 중,PK-3006,,spec_pick,PK-3006,dev
+B0097,우레탄 원액 MDI,M-0207,,spec_pick,M-0207,test
+B0098,스테인리스 코일 SUS316,M-0211,,spec_pick,,dev
+B0099,옵셋 잉크 청,M-0307,,spec_pick,,test
+B0100,골판지 원단 DW,P-1013,,spec_pick,,test
+B0101,백상지 90g A4 500매,NONE,,spec_trap,,dev
+B0102,샌드위치 패널 EPS 125T 벽체용,NONE,,spec_trap,,dev
+B0103,SUS304 2.0T 헤어라인 패널,NONE,,spec_trap,,dev
+B0104,골판지 상자 A형 500x400x300,NONE,,spec_trap,,test
+B0105,라벨 스티커 원형 80mm 유광,NONE,,spec_trap,,test
+B0106,컬러강판 0.8T 백색,NONE,,spec_trap,,test
+B0107,SC마닐라지 400g,NONE,,spec_trap,,test
+B0108,아트지 250g 국전,NONE,,spec_trap,,test
+B0109,크라프트지 100g 롤 1000mm,NONE,,spec_trap,,test
+B0110,EPS 단열재 100T 비드법 2종,NONE,,spec_trap,,dev
+B0111,스테인리스 코일 SUS430 1.2T,NONE,,spec_trap,,test
+B0112,OPP 필름 30mic 유광,NONE,,spec_trap,,test
+B0113,화장지 원단 4겹 30m,NONE,,spec_trap,,dev
+B0114,글라스울 64K 75T,NONE,,spec_trap,,test
+B0115,징크 패널 1.0T 돌출이음,NONE,,spec_trap,,dev
+B0116,골판지 상자 C형 300x200x150,NONE,,spec_trap,,test
+B0117,옵셋 잉크 CMYK 황,NONE,,spec_trap,,dev
+B0118,알루미늄 코일 A5052 3T,NONE,,spec_trap,,test
+B0119,복사용지 80g A4 2500매 박스,NONE,,spec_trap,,dev
+B0120,샌드위치 패널 우레탄 75T 벽체용,NONE,,spec_trap,,test
+B0121,백상지 A4,AMBIG,"P-1001,P-1002",ambiguous,,test
+B0122,샌드위치 패널 EPS,AMBIG,"MP-2001,MP-2002,MP-2003",ambiguous,,test
+B0123,스테인리스 패널 SUS304,AMBIG,"MP-2008,MP-2009",ambiguous,,test
+B0124,골판지 상자 A형,AMBIG,"PK-3001,PK-3002",ambiguous,,dev
+B0125,쇼핑백 크라프트,AMBIG,"PK-3006,PK-3007",ambiguous,,test
+B0126,라벨 스티커 원형 50mm,AMBIG,"PK-3008,PK-3009",ambiguous,,dev
+B0127,컬러강판 0.5T,AMBIG,"M-0201,M-0202",ambiguous,,dev
+B0128,UV 코팅액,AMBIG,"M-0308,M-0309",ambiguous,,test
+B0129,옵셋 잉크,AMBIG,"M-0306,M-0307",ambiguous,,test
+B0130,SC마닐라지,AMBIG,"M-0301,M-0302",ambiguous,,dev
+B0131,우레탄 원액,AMBIG,"M-0206,M-0207",ambiguous,,test
+B0132,OPP 필름 20mic,AMBIG,"M-0311,M-0312",ambiguous,,test
+B0133,아트지 국전,AMBIG,"P-1005,P-1006",ambiguous,,test
+B0134,화장지 원단 30m,AMBIG,"P-1010,P-1011",ambiguous,,test
+B0135,컬러박스 화장품용,AMBIG,"PK-3004,PK-3005",ambiguous,,test
+B0136,폐지,AMBIG,"M-0103,M-0104",ambiguous,,test
+B0137,MP-2008 스테인리스 패널 SUS316 1.2T 미러,AMBIG,"MP-2008,MP-2010",conflict,,test
+B0138,P-1001 백상지 100g A4 500매,AMBIG,"P-1001,P-1002",conflict,,dev
+B0139,PK-3001 골판지 상자 B형 300x200x150,AMBIG,"PK-3001,PK-3003",conflict,,test
+B0140,M-0201 컬러강판 0.6T 백색,AMBIG,"M-0201,M-0203",conflict,,test
+B0141,M-0308 UV 코팅액 무광,AMBIG,"M-0308,M-0309",conflict,,test
+B0142,MP-2001 샌드위치 패널 우레탄 50T 벽체용,AMBIG,"MP-2001,MP-2004",conflict,,test
+B0143,M-0306 옵셋 잉크 CMYK 청,AMBIG,"M-0306,M-0307",conflict,,test
+B0144,PK-3006 쇼핑백 크라프트 대,AMBIG,"PK-3006,PK-3007",conflict,,dev
+B0145,PVC 타일 3T,NONE,,unregistered,,test
+B0146,합판 12T,NONE,,unregistered,,test
+B0147,에폭시 도료 회색,NONE,,unregistered,,test
+B0148,면장갑,NONE,,unregistered,,dev
+B0149,PP 밴드,NONE,,unregistered,,test
+B0150,LED 조명 모듈,NONE,,unregistered,,dev
+B0151,베어링 6204,NONE,,unregistered,,dev
+B0152,유압 오일 46,NONE,,unregistered,,test
+B0153,택배 송장 용지,NONE,,unregistered,,test
+B0154,목재 팔레트 1100,NONE,,unregistered,,test
+B0155,Q-9001,NONE,,unregistered,,test
+B0156,X-0001,NONE,,unregistered,,dev
+B0157,ZZ-123,NONE,,unregistered,,test
+B0158,동파이프 15A,NONE,,unregistered,,test
+B0159,방청유,NONE,,unregistered,,test
+B0160,작업복 상의,NONE,,unregistered,,dev

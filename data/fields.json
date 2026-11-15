@@ -1,0 +1,558 @@
+{
+ "monthly_demand": {
+  "product_id": {
+   "desc": "제품 코드. 제품을 식별하는 번호",
+   "required": true,
+   "strong": [
+    "product_id",
+    "productid",
+    "product_code",
+    "productcode",
+    "제품코드",
+    "품목코드",
+    "제품id",
+    "품번",
+    "itemcode",
+    "item_code",
+    "sku"
+   ],
+   "weak": [
+    "code",
+    "코드",
+    "id",
+    "제품",
+    "품목"
+   ]
+  },
+  "product_name": {
+   "desc": "제품 이름",
+   "required": false,
+   "strong": [
+    "product_name",
+    "productname",
+    "제품명",
+    "품목명",
+    "품명",
+    "itemname"
+   ],
+   "weak": [
+    "name",
+    "이름",
+    "명칭"
+   ]
+  },
+  "period": {
+   "desc": "수요가 발생한 월. 연월 YYYY-MM",
+   "required": true,
+   "strong": [
+    "period",
+    "yyyymm",
+    "년월",
+    "수요월",
+    "기준월",
+    "주문월",
+    "target_month",
+    "기간"
+   ],
+   "weak": [
+    "month",
+    "월",
+    "date",
+    "날짜",
+    "일자"
+   ]
+  },
+  "demand_qty": {
+   "desc": "그 달의 수요 수량. 판매·주문·출고된 양",
+   "required": true,
+   "strong": [
+    "demand_qty",
+    "demandqty",
+    "수요량",
+    "월수요량",
+    "월별수요량",
+    "monthly_demand"
+   ],
+   "weak": [
+    "demand",
+    "수요",
+    "qty",
+    "quantity",
+    "수량",
+    "주문수량",
+    "판매량",
+    "출고량"
+   ]
+  },
+  "unit": {
+   "desc": "수량의 단위",
+   "required": false,
+   "strong": [
+    "unit",
+    "uom",
+    "단위",
+    "수량단위"
+   ],
+   "weak": [
+    "단위명"
+   ]
+  }
+ },
+ "product": {
+  "product_id": {
+   "desc": "제품 코드. 제품을 식별하는 번호",
+   "required": true,
+   "strong": [
+    "product_id",
+    "productid",
+    "product_code",
+    "productcode",
+    "제품코드",
+    "품목코드",
+    "제품id",
+    "품번",
+    "itemcode",
+    "item_code",
+    "sku"
+   ],
+   "weak": [
+    "code",
+    "코드",
+    "id",
+    "제품",
+    "품목"
+   ]
+  },
+  "product_name": {
+   "desc": "제품 이름",
+   "required": true,
+   "strong": [
+    "product_name",
+    "productname",
+    "제품명",
+    "품목명",
+    "품명",
+    "itemname"
+   ],
+   "weak": [
+    "name",
+    "이름",
+    "명칭"
+   ]
+  },
+  "base_unit": {
+   "desc": "제품의 기준 단위. 재고·생산을 세는 단위",
+   "required": true,
+   "strong": [
+    "base_unit",
+    "baseunit",
+    "기준단위",
+    "기본단위",
+    "unit",
+    "uom",
+    "단위",
+    "수량단위"
+   ],
+   "weak": [
+    "단위명"
+   ]
+  },
+  "product_type": {
+   "desc": "제품 유형. 완제품인지 반제품인지",
+   "required": false,
+   "strong": [
+    "product_type",
+    "producttype",
+    "제품유형",
+    "제품구분",
+    "품목유형",
+    "품목구분"
+   ],
+   "weak": [
+    "type",
+    "유형",
+    "구분"
+   ]
+  },
+  "safety_stock_qty": {
+   "desc": "안전재고 수량. 최소로 유지할 재고",
+   "required": false,
+   "strong": [
+    "safety_stock_qty",
+    "safety_stock",
+    "safetystock",
+    "안전재고",
+    "안전재고량",
+    "안전재고수량"
+   ],
+   "weak": []
+  }
+ },
+ "material": {
+  "material_id": {
+   "desc": "자재 코드. 원자재·부품을 식별하는 번호",
+   "required": true,
+   "strong": [
+    "material_id",
+    "material_code",
+    "자재코드",
+    "원자재코드",
+    "자재id"
+   ],
+   "weak": [
+    "code",
+    "코드",
+    "id",
+    "자재"
+   ]
+  },
+  "material_name": {
+   "desc": "자재 이름",
+   "required": true,
+   "strong": [
+    "material_name",
+    "자재명",
+    "원자재명"
+   ],
+   "weak": [
+    "name",
+    "이름",
+    "명칭",
+    "품명"
+   ]
+  },
+  "base_unit": {
+   "desc": "자재의 기준 단위",
+   "required": true,
+   "strong": [
+    "base_unit",
+    "baseunit",
+    "기준단위",
+    "기본단위",
+    "unit",
+    "uom",
+    "단위",
+    "수량단위"
+   ],
+   "weak": [
+    "단위명"
+   ]
+  },
+  "safety_stock_qty": {
+   "desc": "안전재고 수량. 최소로 유지할 재고",
+   "required": false,
+   "strong": [
+    "safety_stock_qty",
+    "safety_stock",
+    "safetystock",
+    "안전재고",
+    "안전재고량",
+    "안전재고수량"
+   ],
+   "weak": []
+  }
+ },
+ "bom": {
+  "bom_id": {
+   "desc": "BOM 코드. 자재명세서를 식별하는 번호",
+   "required": true,
+   "strong": [
+    "bom_id",
+    "bom_code",
+    "bom코드",
+    "bom번호"
+   ],
+   "weak": [
+    "bom"
+   ]
+  },
+  "product_id": {
+   "desc": "만드는 제품의 코드. 상위 품목, 모품목",
+   "required": true,
+   "strong": [
+    "product_id",
+    "productid",
+    "product_code",
+    "productcode",
+    "제품코드",
+    "품목코드",
+    "제품id",
+    "품번",
+    "itemcode",
+    "item_code",
+    "sku",
+    "상위품목코드",
+    "모품목코드",
+    "parent_item"
+   ],
+   "weak": [
+    "제품",
+    "모품목"
+   ]
+  },
+  "bom_version": {
+   "desc": "BOM 버전. 개정 차수",
+   "required": true,
+   "strong": [
+    "bom_version",
+    "version",
+    "버전",
+    "bom버전",
+    "리비전",
+    "revision"
+   ],
+   "weak": [
+    "개정",
+    "rev"
+   ]
+  },
+  "status": {
+   "desc": "BOM 승인 상태. 승인 또는 초안",
+   "required": true,
+   "strong": [
+    "status",
+    "bom_status",
+    "bom상태",
+    "승인상태"
+   ],
+   "weak": [
+    "상태"
+   ]
+  },
+  "is_active": {
+   "desc": "활성 여부. 현재 사용하는 BOM 인지",
+   "required": true,
+   "strong": [
+    "is_active",
+    "active",
+    "활성",
+    "활성여부",
+    "사용여부"
+   ],
+   "weak": []
+  },
+  "valid_from": {
+   "desc": "유효 시작일. 적용을 시작하는 날짜",
+   "required": true,
+   "strong": [
+    "valid_from",
+    "유효시작일",
+    "적용시작일"
+   ],
+   "weak": [
+    "시작일"
+   ]
+  },
+  "valid_to": {
+   "desc": "유효 종료일. 적용이 끝나는 날짜",
+   "required": false,
+   "strong": [
+    "valid_to",
+    "유효종료일",
+    "적용종료일"
+   ],
+   "weak": [
+    "종료일"
+   ]
+  },
+  "base_qty": {
+   "desc": "기준 수량. 소요량을 정의한 기준 생산 수량",
+   "required": false,
+   "strong": [
+    "base_qty",
+    "기준수량",
+    "기준생산량"
+   ],
+   "weak": []
+  },
+  "line_no": {
+   "desc": "구성품 줄 번호. 순번",
+   "required": true,
+   "strong": [
+    "line_no",
+    "라인번호",
+    "행번호",
+    "순번",
+    "항번"
+   ],
+   "weak": []
+  },
+  "component_type": {
+   "desc": "구성품 유형. 자재인지 반제품인지",
+   "required": true,
+   "strong": [
+    "component_type",
+    "구성유형",
+    "구성품유형",
+    "자재구분"
+   ],
+   "weak": [
+    "유형",
+    "구분",
+    "type"
+   ]
+  },
+  "component_id": {
+   "desc": "구성품 코드. 투입되는 자재나 반제품, 하위 품목, 자품목",
+   "required": true,
+   "strong": [
+    "component_id",
+    "component_code",
+    "구성품코드",
+    "자재코드",
+    "material_code",
+    "하위품목코드"
+   ],
+   "weak": [
+    "구성품"
+   ]
+  },
+  "qty_per": {
+   "desc": "소요량. 기준 수량당 들어가는 구성품의 양",
+   "required": true,
+   "strong": [
+    "qty_per",
+    "소요량",
+    "단위소요량",
+    "구성수량"
+   ],
+   "weak": [
+    "수량",
+    "qty",
+    "quantity"
+   ]
+  },
+  "unit": {
+   "desc": "소요량의 단위",
+   "required": true,
+   "strong": [
+    "unit",
+    "uom",
+    "단위",
+    "수량단위"
+   ],
+   "weak": [
+    "단위명"
+   ]
+  },
+  "scrap_rate": {
+   "desc": "스크랩 비율. 손실률",
+   "required": false,
+   "strong": [
+    "scrap_rate",
+    "scrap",
+    "스크랩률",
+    "스크랩비율",
+    "불량률",
+    "손실률"
+   ],
+   "weak": []
+  }
+ },
+ "inventory": {
+  "item_type": {
+   "desc": "품목 구분. 제품인지 자재인지",
+   "required": true,
+   "strong": [
+    "item_type",
+    "품목구분",
+    "품목유형"
+   ],
+   "weak": [
+    "구분",
+    "유형",
+    "type"
+   ]
+  },
+  "item_id": {
+   "desc": "품목 코드. 재고를 가진 제품 또는 자재의 번호",
+   "required": true,
+   "strong": [
+    "item_id",
+    "item_code",
+    "품목코드",
+    "품번",
+    "제품코드",
+    "자재코드",
+    "재고코드"
+   ],
+   "weak": [
+    "code",
+    "코드",
+    "id",
+    "품목"
+   ]
+  },
+  "as_of_date": {
+   "desc": "재고 기준일. 재고를 센 날짜",
+   "required": true,
+   "strong": [
+    "as_of_date",
+    "기준일",
+    "재고기준일",
+    "기준일자"
+   ],
+   "weak": [
+    "date",
+    "날짜",
+    "일자"
+   ]
+  },
+  "on_hand_qty": {
+   "desc": "현재고. 지금 보유한 수량",
+   "required": true,
+   "strong": [
+    "on_hand_qty",
+    "on_hand",
+    "현재고",
+    "현재고량",
+    "재고량",
+    "보유재고",
+    "보유수량"
+   ],
+   "weak": [
+    "재고",
+    "stock",
+    "qty",
+    "수량"
+   ]
+  },
+  "allocated_qty": {
+   "desc": "할당 재고. 이미 예약된 수량",
+   "required": false,
+   "strong": [
+    "allocated_qty",
+    "allocated",
+    "할당재고",
+    "할당수량",
+    "할당량",
+    "예약재고"
+   ],
+   "weak": []
+  },
+  "available_qty": {
+   "desc": "가용 재고. 현재고에서 할당을 뺀 수량",
+   "required": false,
+   "strong": [
+    "available_qty",
+    "available",
+    "가용재고",
+    "가용수량"
+   ],
+   "weak": []
+  },
+  "unit": {
+   "desc": "수량의 단위",
+   "required": true,
+   "strong": [
+    "unit",
+    "uom",
+    "단위",
+    "수량단위"
+   ],
+   "weak": [
+    "단위명"
+   ]
+  }
+ }
+}
